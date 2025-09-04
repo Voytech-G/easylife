@@ -20,16 +20,15 @@ const theme = createTheme({
       "#34B7F1", // Primary brand color
       "#075E54",
     ],
-
     grey: [
       "#f8f9fa", // grey50
       "#f1f3f4", // grey100
       "#e8eaed", // grey200
-      "#eaeaea", // grey300
+      "#eaeaea", // grey300 - in use
       "#bdc1c6", // grey400
       "#9aa0a6", // grey500
       "#80868b", // grey600
-      "#5f6368", // grey700
+      "#666666", // grey700
       "#3c4043", // grey800
       "#202124", // grey900
     ],
