@@ -1,12 +1,12 @@
 export const commonStyles = {
   //Borders
   borderBottomLight: { borderBottom: "1px solid var(--mantine-color-grey-3)" },
-  borderTopLight: { borderTop: "1px solid #eaeaea" },
-  borderGray: { border: "1px solid #eaeaea" },
+  borderTopLight: { borderTop: "1px solid  var(--mantine-color-grey-3)" },
+  borderGray: { border: "1px solid  var(--mantine-color-grey-3)" },
 
   // Backgrounds
-  bgGray: { backgroundColor: "#f8f9fa" },
-  bgWhite: { backgroundColor: "#ffffff" },
+  bgGray: { backgroundColor: "var(--mantine-color-grey-0)" },
+  bgWhite: { backgroundColor: "var(--mantine-color-white)" },
 
   // Layout
   autoMarginTop: { marginTop: "auto" },
@@ -17,11 +17,11 @@ export const commonStyles = {
   footerStyle: {
     marginTop: "auto",
     padding: "2rem 0",
-    backgroundColor: "#f8f9fa",
-    borderTop: "1px solid #eaeaea",
+    backgroundColor: "var(--mantine-color-grey-0)",
+    borderTop: "1px solid var(--mantine-color-grey-2)",
   },
   cardBorder: {
-    border: "1px solid #eaeaea",
+    border: "1px solid var(--mantine-color-grey-2)",
     borderRadius: "8px",
   },
 
@@ -29,7 +29,7 @@ export const commonStyles = {
   linkSmall: {
     textDecoration: "none",
     fontSize: "14px",
-    color: "#666666",
+    color: "var(--mantine-color-grey-7)",
   },
   linkBold: {
     textDecoration: "none",
