@@ -1,4 +1,10 @@
 export const commonStyles = {
+  //Common
+  textDecorationNone: {
+    textDecoration: "none",
+    color: "inherit",
+  },
+
   //Borders
   borderBottomLight: { borderBottom: "1px solid var(--mantine-color-grey-3)" },
   borderTopLight: { borderTop: "1px solid  var(--mantine-color-grey-3)" },
@@ -20,6 +26,8 @@ export const commonStyles = {
     backgroundColor: "var(--mantine-color-grey-0)",
     borderTop: "1px solid var(--mantine-color-grey-2)",
   },
+
+  //Cards
   cardBorder: {
     border: "1px solid var(--mantine-color-grey-2)",
     borderRadius: "8px",
