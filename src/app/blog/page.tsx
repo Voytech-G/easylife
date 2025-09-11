@@ -11,6 +11,7 @@ import Link from "next/link";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { getAllPosts } from "@/lib/blog";
+import BlogSkeleton from "@/components/ui/BlogSkeleton";
 
 export const metadata = {
   title: "Blog - LifeAgent",
