@@ -27,7 +27,7 @@ export default function Header() {
 
   return (
     <header style={commonStyles.borderBottomLight}>
-      <Container size="lg">
+      <Container size="lg md">
         <Group h={60} justify="space-between">
           {/* Logo */}
           <Group>
